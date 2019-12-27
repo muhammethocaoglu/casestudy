@@ -1,10 +1,10 @@
 package com.casestudy;
 
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.EqualsAndHashCode;
+import lombok.Getter;
 
-@NoArgsConstructor
 @AllArgsConstructor
-@Setter
 @Getter
 @EqualsAndHashCode
 public class Product {

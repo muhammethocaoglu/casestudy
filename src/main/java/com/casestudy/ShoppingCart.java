@@ -1,7 +1,6 @@
 package com.casestudy;
 
 
-import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -13,7 +12,6 @@ import java.util.List;
 @Getter
 @Setter
 @NoArgsConstructor
-@AllArgsConstructor
 public class ShoppingCart {
 
     private HashMap<Category, List<Product>> categoryProductListMap = new HashMap<>();
